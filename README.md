@@ -1,7 +1,9 @@
 # deHuBERT: Disentangling Noise in a Self-supervised Model for Robust Speech Recognition
 
 Paper for this work: https://ieeexplore.ieee.org/document/10096603
+
 Noise dataset used in this work can be downloaded [here](https://drive.google.com/drive/folders/1GT-drqG5vn9OfRrmNZXDjhBQC2p1sfoK?usp=share_link)
+
 Note that we would like to credit the noise dataset from the work `An Investigation of End-to-End Models for Robust Speech Recognition`, but unfortunately, we found that it is currently inaccessible. For research purposes, we hope that the above link can help reproduce some of the results.
 The test set for pre-mixed noisy speech is corrupted from the test-clean set of LibriSpeech, with text references matched to the utterances and file names respectively. You can obtain the labels by matching them yourself from the LibriSpeech corpus.
 
